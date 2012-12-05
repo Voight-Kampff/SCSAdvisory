@@ -1,0 +1,41 @@
+<!--<header class="navbar navbar-fixed-top">
+  <nav class="navbar-inner">
+    <div class="container">
+      <h1>SWISS CORPORATE SERVICES</h1>
+    </div>
+  </nav>
+</header>
+
+  <nav class="navbar-outer">
+    <div class="container">
+      <ul class="nav nav-pills">
+        <li><h4>Présentation </h4></li>
+        <li><h4> Services</h4></li>
+        <li style="float:right"><h4>Contact</h4></li>
+      </ul>
+      </hr>
+    </div>
+  </nav>-->
+<header>
+<div class="container">
+  <div class="row" id="wrapper">
+    <div class="span1">
+      <%= image_tag "SCSLogo1.png" %>
+    </div>
+    <div class="span11" id="bar">
+      <ul class="nav nav-tabs">
+        <li class="active">
+          <%=link_to("HOME", root_path)%>
+        </li>
+        <li><%=link_to("ABOUT US", about_en_path)%></li>
+        <li><%=link_to("SERVICES", services_en_path)%></li>
+        <li><%=link_to("TEAM", team_en_path)%></li>
+        <li><%=link_to("CONTACT", contact_en_path)%></li>
+        <li class="active pull-right"><a href="#">EN</a></li>
+        <li class="pull-right"><a href="#">FR</a></li>
+        <li class="pull-right"><a href="#">IT</a></li>
+      </ul>
+    </div>
+  </div>
+  </header>
+</div>
