@@ -44638,3 +44638,145 @@ ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
 
 
   Rendered /Users/Voight-Kampff/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-05 04:41:25 +0100
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (5.2ms)
+Compiled custom.css  (2849ms)  (pid 1527)
+Compiled application.css  (5ms)  (pid 1527)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 3189ms (Views: 3188.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /about.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /contact.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /static.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /custom.css - 200 OK (25ms)
+
+
+Started GET "/assets/services.css?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /services.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/team.css?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /team.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /bootstrap-collapse.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /about.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /services.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /contact.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/team.js?body=1" for 127.0.0.1 at 2012-12-05 04:41:29 +0100
+Served asset /team.js - 304 Not Modified (0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-12-05 04:41:30 +0100
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/mongrel.rb:77:in `process'
+  mongrel (1.2.0.pre2) lib/mongrel.rb:165:in `block in process_client'
+  mongrel (1.2.0.pre2) lib/mongrel.rb:164:in `each'
+  mongrel (1.2.0.pre2) lib/mongrel.rb:164:in `process_client'
+  mongrel (1.2.0.pre2) lib/mongrel.rb:291:in `block (2 levels) in run'
+
+
+  Rendered /Users/Voight-Kampff/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
