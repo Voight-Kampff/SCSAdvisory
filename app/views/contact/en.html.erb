@@ -1,36 +1,44 @@
 <% provide(:title, "Contact") %>
   <div class="container">
     <div class="row">
-      <div class="span3">
-        <h2 style="text-align:right">CONTACT</h2>
-      </div>
-      <div class="span9">
-        <div class="sidebar">
-        	<p class="lead">Should our services be of interest to you or one of your client, we will be glad to provide you with extensive information and documentation upon signature of a related Non Disclosure Agreement.</p>
-        	<p class="lead">We will be pleased to answer any questions regarding our services or any other matters by contacting us at the following address.</p>
-        	<p class="lead">Geneva office<br>
-        	<%=mail_to('info@scsadvisory.ch')%>
-        	</p>
-          		<adress>
-	          		<strong>SCS S.A.<br>
-					Swiss Corporate Services </strong><br>
-					Avenue Calas, 8<br>
-					1206 Geneva<br>
-					Switzerland<br>
-					T: +4122 347 4360 <br>
-				</adress>
-				<br>
-			<p class="lead">Milano office<br>
-        	</p>
-          		<adress>
-	          		<strong>Milano office<br>
-					c/o Club GS</strong><br>
-					Via San Prospero 1<br>
-					I-20121 Milano<br>
-					Italy<br>
-					T: +39 02 72094746 <br>
-				</adress>
-    	</div>
+      <div class="span2 offset2 side">
+        <%=link_to image_tag("SCSL.png", :class => "logo"), root_path %>
+        <div class="content">
+          <ul class="sidemenu">
+            <li class="active"><a href="#Geneva" data-toggle="tab">GENEVA OFFICE</a></li>
+            <li><a href="#Milano" data-toggle="tab">MILANO OFFICE</a></li>
+          </ul>
+        </div>
+      </div><!--span2-->
+      <div class="span6 mid">
+        <div class="content">
+          <h1>Contact</h1>
+          <p> Should our services be of interest to you or one of your client, we will be glad to provide you with extensive information and documentation upon signature of a related Non Disclosure Agreement.</p>
+          <div class="tab-content">
+            <div class="tab-pane active" id="Geneva">
+              <p>Geneva Office:</p>
+                <adress>
+                <strong>SCS S.A.<br>
+                Swiss Corporate Services </strong><br>
+                Avenue Calas, 8<br>
+                1206 Geneva<br>
+                Switzerland<br>
+                T: +4122 347 4360 <br>
+                </adress>
+            </div><!--Geneva-->
+            <div class= "tab-pane" id="Milano">
+              <p>Milano office</p>
+              <adress>
+              <strong>SCS S.A<br>
+              c/o Club GS</strong><br>
+              Via San Prospero 1<br>
+              I-20121 Milano<br>
+              Italy<br>
+              T: +39 02 72094746 <br>
+              </adress>
+            </div><!--Milano-->
+          </div><!--Tabs-->
+        </div>
+      </div><!--span6/mid-->
     </div>
   </div>
- </div>

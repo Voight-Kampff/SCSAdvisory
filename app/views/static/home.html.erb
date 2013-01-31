@@ -1,11 +1,39 @@
 <div class="container">
+  <div class="row">
+    <div class="span2 offset2 side">
+      <%=link_to image_tag("SCSL.png", :class => "logo"), root_path %>
+      <div class="content">
+        <ul class="sidemenu">
+          <li><%=link_to("HOME", root_path) %></li>
+          <li><%=link_to("ABOUT US", about_en_path) %></li>
+          <li><%=link_to("SERVICES", services_en_path) %></li>
+          <li><%=link_to("TEAM",team_en_path) %></li>
+          <li><%=link_to("CONTACT", contact_en_path) %></li>
+        </ul>
+      </div>
+    </div><!--span2-->
+    <div class="span6 mid">
+      <div class="content">
+        <h1>Swiss Corporate Services</h1>
+        <p> Founded by Tolis Cléopas, SCS is an independent company providing strategic and financial advisory services to Swiss and foreign enterprises. We specialize in the following areas:</p>
+        <ul>
+          <li>Strategic brand and market development</li>
+          <li>Management support</li>
+          <li>Acquisitions & cessions</li>
+          <li>Capital restructuring</li>
+        </ul>
+        <p>SCS focuses on developing simple and efficient business solutions for its clients elaborated by a team of senior professionals in close coordination with their management.</p>
+      </div>
+    </div><!--span6/mid-->
+  </div><!--row-->
+  <!--
 	<div class="row">
 		<div class="span6">
 			<div class="item"><%= image_tag "SCSBanner1.png"%></div>
 		</div>
-		<div class="span6">
+		<div class="span6" style="background-color:rgba(16,20,27,0.8);">
 			<h2>SWISS CORPORATE SERVICES</h2>
-			<p class="lead"> Founded by Tolis Cléopas, SCS is an independent company providing strategic and financial advisory services to Swiss and foreign enterprises. We specialize in the following areas:</p>
+			<p style="color:#ffffff"> Founded by Tolis Cléopas, SCS is an independent company providing strategic and financial advisory services to Swiss and foreign enterprises. We specialize in the following areas:</p>
 			<ul class="lead">
         <li>Strategic brand and market development</li>
         <li>Management support</li>
@@ -47,4 +75,3 @@
             </li> 
         </ul><!--end thumbnails-->
     </div><!--end second row-->
-</div>

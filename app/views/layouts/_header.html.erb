@@ -16,7 +16,8 @@
       </hr>
     </div>
   </nav>-->
-<header>
+
+<!--<header>
 <div class="container">
   <div class="row" id="wrapper">
     <div class="span1">
@@ -38,4 +39,30 @@
     </div>
   </div>
   </header>
+</div>-->
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="<%=root_path%>">Swiss Corporate Services Advisory</a>
+      <div class="nav-collapse pull-right">
+        <ul class="nav" style="align:right">
+          <li class= "<%=active?(root_path)%>" >
+          <%=link_to("HOME", root_path) %></li>
+          <li class= "<%=active?(about_en_path)%>" >
+          <%=link_to("ABOUT US", about_en_path) %></li>
+          <li class= "<%=active?(services_en_path)%>" >
+          <%=link_to("SERVICES", services_en_path) %></li>
+          <li class= "<%=active?(team_en_path)%>" >
+          <%=link_to("TEAM",team_en_path) %></li>
+          <li class= "<%=active?(contact_en_path)%>" >
+          <%=link_to("CONTACT", contact_en_path) %></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
 </div>

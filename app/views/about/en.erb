@@ -1,43 +1,41 @@
 <% provide(:title, "About Us") %>
   <div class="container">
     <div class="row">
-      <div class="span3">
-        <h2 style="text-align:right">ABOUT US</h2>
-      </div>
-      <div class="span9">
-        <div class="sidebar">
-          <h2>Swiss Corporate Services</h2>
-          </br>
-          <p class="lead">Swiss Corporate Services is a Geneva based company with offices in Geneva and Milano. Since 2007 we provide Financial and Strategic Development Advisory to Swiss, Italian and Foreign companies.</p>
-          <p class="lead">Implemented in Geneva and Milan, Swiss Corporate Services offers a unique knowledge for Italian companies of the Swiss market:</p>
-          <ul class="lead">
-            <li>Analysis of acquisition opportunities in Switzerland</li>
-            <li>Developing your company's throughout the Swiss market</li>
-            <li>Creating international sales center from Switzerland (competitive tax and management advantages</li>
-            <li>Benefit from the unique Expertise of our network of experts in industrial projects, finance and international strategic development</li>
+      <div class="span2 offset2 side">
+        <%=link_to image_tag("SCSL.png", :class => "logo"), root_path %>
+        <div class="content">
+          <ul class="sidemenu">
+            <li class="active"><a href="#About" data-toggle="tab">ABOUT US</a></li>
+            <li><a href="#Philo" data-toggle="tab">OUR PHILOSOPHY</a></li>
           </ul>
         </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="span3">
-        <h2 style="text-align:right">OUR PHILOSOPHY</h2>
-      </div>
-      <div class="span9">
-        <div class="sidebar">
-          <h2>Personal Service</h2>
-          </br>
-          <p class="lead">SCS’s philosophy prides itself on developing long term relationship with its clients, and partners, rooted in a deep understanding of their specific objectives and requirements</p>
-          <h2>Tailor Made Solutions</h2>
-          </br>
-          <p class="lead">Each customer is different. Thus our team and our partners are dedicated at providing the best suited solutions to any business requirement raised by our clients</p>
-          <h2>Secrecy and Compliance</h2>
-          </br>
-          <p class="lead">As our clients, our team of professionals is sharing the highest level of discretion and confidentiality that prevails in the Swiss banking industry segment.</p>
-          <h2>Transparent Fee Structure</h2>
-          </br>
-          <p class="lead">SCS believes in agreeing a true and simple fee structure prior to the acceptation of a mandate. This fee structure will cover all our services, ensuring that there will be no hidden extra costs incurred during the mandate.</p>
+      </div><!--span2-->
+      <div class="span6 mid">
+        <div class="content">
+          <h1>About Us</h1>
+          <div class="tab-content">
+            <div class="tab-pane active" id="About">
+              <p> Swiss Corporate Services is a Geneva based company with offices in Geneva and Milano. Since 2007 we provide Financial and Strategic Development Advisory to Swiss, Italian and Foreign companies.</p>
+              <p>Implemented in Geneva and Milan, Swiss Corporate Services offers a unique knowledge for Italian companies of the Swiss market:</p>
+              <ul>
+                <li>Analysis of acquisition opportunities in Switzerland</li>
+                <li>Developing your company's throughout the Swiss market</li>
+                <li>Creating international sales center from Switzerland (competitive tax and management advantages</li>
+                <li>Benefit from the unique Expertise of our network of experts in industrial projects, finance and international strategic development</li>
+              </ul>
+            </div><!--Geneva-->
+            <div class= "tab-pane" id="Philo">
+              <p><strong>Personal Service</strong></p>
+              <p>SCS’s philosophy prides itself on developing long term relationship with its clients, and partners, rooted in a deep understanding of their specific objectives and requirements</p>
+              <p><strong>Tailor Made Solutions</strong></p>
+              <p>Each customer is different. Thus our team and our partners are dedicated at providing the best suited solutions to any business requirement raised by our clients</p>
+              <p><strong>Secrecy and Compliance</strong></p>
+              <p>As our clients, our team of professionals is sharing the highest level of discretion and confidentiality that prevails in the Swiss banking industry segment.</p>
+              <p><strong>Transparent Fee Structure</strong></p>
+              <p>SCS believes in agreeing a true and simple fee structure prior to the acceptation of a mandate. This fee structure will cover all our services, ensuring that there will be no hidden extra costs incurred during the mandate.</p>
+            </div><!--Milano-->
+          </div><!--Tabs-->
         </div>
-      </div>
+      </div><!--span6/mid-->
     </div>
   </div>

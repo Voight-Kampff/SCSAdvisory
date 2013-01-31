@@ -1,54 +1,59 @@
 <% provide(:title, "Services") %>
   <div class="container">
     <div class="row">
-      <div class="span3">
-        <h2 style="text-align:right">SERVICES</h2>
-      </div>
-      <div class="span9">
-        <div class="sidebar">
-          <h2>Business Development</h2>
-          </br>
-          <ul class="lead">
-            <li>Strategic planning & advisory</li>
-            <li>Mergers & acquisitions</li>
-            <li>Financial structuring</li>
-            <li>Market acquisition & development support</li>
+      <div class="span2 offset2 side">
+        <%=link_to image_tag("SCSL.png", :class => "logo"), root_path %>
+        <div class="content">
+          <ul class="sidemenu">
+            <li class="active"><a href="#BD" data-toggle="tab">BUSINESS DEVELOPMENT</a></li>
+            <li><a href="#BS" data-toggle="tab">BUSINESS SUPPORT</a></li>
+            <li><a href="#BI" data-toggle="tab">BUSINESS INTELLIGENCE AND INNOVATION</a></li>
+            <li><a href="#LS" data-toggle="tab">LEGAL SERVICES AND ADVICE</a></li>
+            <li><a href="#TS" data-toggle="tab">TAX SERVICES AND OPTIMITZATION</a></li>
           </ul>
         </div>
-        <div class="sidebar">
-          <h2>Business support</h2>
-          </br>
-          <ul class="lead">
-            <li>Financial planning & organization</li>
-            <li>Process and organization optimization</li>
-          </ul>
+      </div><!--span2-->
+      <div class="span6 mid">
+        <div class="content">
+          <h1>Services</h1>
+          <div class="tab-content">
+            <div class="tab-pane active" id="BD">
+            <ul>
+              <li>Strategic planning & advisory</li>
+              <li>Mergers & acquisitions</li>
+              <li>Financial structuring</li>
+              <li>Market acquisition & development support</li>
+            </ul>
+            </div><!--Geneva-->
+            <div class="tab-pane" id="BS">
+            <ul>
+              <li>Financial planning & organization</li>
+              <li>Process and organization optimization</li>
+            </ul>
+            </div><!--Geneva-->
+            <div class="tab-pane" id="BI">
+            <ul>
+              <li>Market studies and development, benchmarking</li>
+              <li>Events</li>
+              <li>New technologies development advisory</li>
+            </ul>
+            </div><!--Geneva-->
+            <div class="tab-pane" id="LS">
+            <ul>
+              <li>Contractual matters</li>
+              <li>Company creation, structure and administration</li>
+              <li>Intellectual property</li>
+              <li>Litigation and arbitration</li>
+            </ul>
+            </div><!--Geneva-->
+            <div class="tab-pane" id="TS">
+            <ul>
+              <li>Holding and offshore matters</li>
+            </ul>
+            </div><!--Geneva-->
+          </div><!--Tabs-->
         </div>
-        <div class="sidebar">
-          <h2>Business intelligence and innovation</h2>
-          </br>
-          <ul class="lead">
-            <li>Market studies and development, benchmarking</li>
-            <li>Events</li>
-            <li>New technologies development advisory</li>
-          </ul>
-        </div>
-        <div class="sidebar">
-          <h2>Legal Services and Advices</h2>
-          </br>
-          <ul class="lead">
-            <li>Contractual matters</li>
-            <li>Company creation, structure and administration</li>
-            <li>Intellectual property</li>
-            <li>Litigation and arbitration</li>
-          </ul>
-        </div>
-        <div class="sidebar">
-          <h2>Tax services and optimization</h2>
-          </br>
-          <ul class="lead">
-            <li>Holding and offshore matters</li>
-          </ul>
-        </div>
-      </div>
+      </div><!--span6/mid-->
     </div>
   </div>
+  
